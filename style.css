@@ -1,0 +1,44 @@
+.container{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    border:2px solid black;
+    box-sizing:content-box;
+    /* gap:10px; */
+}
+body{
+    background-color:darkgrey;
+}
+button{
+    padding:10px;
+    width: 90px;
+    color:navy;
+    font-size: 1em;
+    border: 2px solid;
+}
+input{
+    height: 34px;
+    border: 2px solid;
+    margin-left:50px;
+    text-align: center;
+}
+#inputs{
+    margin:20px;
+    display: flex;
+}
+#idk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    color:darkred;
+    font-weight: bolder;
+    background-color:transparent;
+    font-size: 1.2em;
+    width: 95px;
+}
